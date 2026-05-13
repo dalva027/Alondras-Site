@@ -1,0 +1,16 @@
+{
+  "name": "Alondra's Mexican Restaurant",
+  "short_name": "Alondra's",
+  "description": "Authentic Mexican cuisine with fresh ingredients and family recipes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9F0",
+  "theme_color": "#C85A17",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
