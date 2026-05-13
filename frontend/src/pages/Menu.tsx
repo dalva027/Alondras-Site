@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 
 interface MenuItem {
   name: string;
@@ -18,7 +18,7 @@ const menuData: MenuCategory[] = [
     note: 'Served 6:00 AM - 11:00 AM',
     items: [
       { name: 'Huevos Rancheros', description: '2 eggs, salsa ranchera, beans, potatoes & 2 slices of bacon', price: '$6.99' },
-      { name: 'Chorizo con Huevo', description: "Alondra\'s homemade chorizo w/ onion, tomato & jalapeno, served w/ beans, potatoes", price: '$6.99' },
+      { name: 'Chorizo con Huevo', description: "Alondra's homemade chorizo w/ onion, tomato & jalapeno, served w/ beans, potatoes", price: '$6.99' },
       { name: 'Huevo a la Mexicana', description: 'Served w/ beans & potatoes', price: '$6.99' },
       { name: 'Jamon con Huevo', description: 'Served w/ beans & potatoes', price: '$6.99' },
       { name: 'Chicharron con Huevo', description: 'Pork rinds mixed w/ egg. Served w/ beans & potatoes', price: '$6.99' },
@@ -33,7 +33,7 @@ const menuData: MenuCategory[] = [
       { name: 'Pancake Plate', description: '3 buttermilk pancakes', price: '$6.99' },
       { name: 'Chilaquiles Plate', description: 'Tortilla chips w/ sauce & white cheese. Served w/ potato & bacon', price: '$6.99' },
       { name: 'Nopal con Huevo', description: 'Mixed w/ egg. Served w/ beans, potato & 2 slices of bacon', price: '$6.99' },
-      { name: "Ernie\'s Breakfast Plate", description: 'French toast, 2 eggs & your choice of 2 bacon strip or 2 sausage patties', price: '$6.99' },
+      { name: "Ernie's Breakfast Plate", description: 'French toast, 2 eggs & your choice of 2 bacon strip or 2 sausage patties', price: '$6.99' },
       { name: 'Waffle Plate', description: '2 waffles, 2 bacon & 2 eggs', price: '$7.25' },
       { name: 'Biscuit & Gravy Plate', description: '2 bisquits, 2 eggs & 2 bacon', price: '$7.25' },
     ],
@@ -43,8 +43,8 @@ const menuData: MenuCategory[] = [
     items: [
       { name: 'Cheese', description: 'Filled w/ cheddar cheese & topped w/ melted American cheese', price: '$7.75' },
       { name: 'Veggie', description: '3 eggs w/ fresh onion, bell pepper & tomato. Topped w/ American cheese', price: '$6.99' },
-      { name: "Farmer\'s", description: 'Country sausage or bacon, onion, green pepper, tomato & American cheese melted on top', price: '$7.75' },
-      { name: "Ron\'s", description: '3 eggs, filled w/ steak, onion, bell pepper & onion. Topped w/ American cheese', price: '$7.75' },
+      { name: "Farmer's", description: 'Country sausage or bacon, onion, green pepper, tomato & American cheese melted on top', price: '$7.75' },
+      { name: "Ron's", description: '3 eggs, filled w/ steak, onion, bell pepper & onion. Topped w/ American cheese', price: '$7.75' },
     ],
   },
   {
@@ -99,7 +99,7 @@ const menuData: MenuCategory[] = [
       { name: 'Spicy Jack Fajita Plate', description: 'Beef fajita topped w/ Monterrey Jack cheese & grilled jalapenos. Served w/ rice, beans & salad', price: '$11.75' },
       { name: 'Chicken Fajita Plate', description: 'Grilled w/ sauteed onion, tomato & bell pepper. Served w/ rice, beans & salad', price: '$11.75' },
       { name: 'Fajita Mix', description: 'Grilled w/ sauteed onion, tomato & bell pepper. Served w/ rice, beans & salad', price: '$11.75' },
-      { name: "Alondra\'s Fajita Mix", description: 'Beef, chicken & shrimp fajita grilled w/ sauteed onion, tomato & bell pepper. Served w/ rice, beans & salad', price: '$12.75' },
+      { name: "Alondra's Fajita Mix", description: 'Beef, chicken & shrimp fajita grilled w/ sauteed onion, tomato & bell pepper. Served w/ rice, beans & salad', price: '$12.75' },
       { name: 'Grilled Chicken Breast', description: 'W/ sauteed onion, tomato & bell pepper. Served w/ rice & beans', price: '$11.25' },
       { name: 'La Vernia Salad', description: 'W/ grilled chicken & fresh tomatoes, bell pepper, onion & cheese', price: '$11.25' },
       { name: 'Puffy Tacos Plate', description: 'Picadillo & served w/ rice & beans', price: '$11.75' },
@@ -108,13 +108,13 @@ const menuData: MenuCategory[] = [
       { name: 'Tampiquena Steak', description: 'Served w/ 1 enchilada, guacamole, rice, beans & salad', price: '$11.99' },
       { name: 'Flautas', description: '3 served w/ guacamole, rice, beans & salad', price: '$8.99' },
       { name: 'Tacos Suaves', description: '3 served w/ guacamole, rice, beans & salad', price: '$8.99' },
-      { name: "Alondra\'s Quesadilla", description: '2 filled w/ Monterrey Jack cheese & your choice of beef or chicken fajita', price: '$11.75' },
+      { name: "Alondra's Quesadilla", description: '2 filled w/ Monterrey Jack cheese & your choice of beef or chicken fajita', price: '$11.75' },
       { name: 'Cheese Quesadilla Plate', description: '2 filled w/ Monterrey Jack cheese served w/ rice & beans', price: '$11.75' },
       { name: 'Fajita Shrimp Parrillada', description: 'Served w/ rice, refried beans, pico de gallo & guacamole', price: '$12.99' },
-      { name: 'Steak Ranchero', description: 'Ribeeye steak topped w/ Alondra\'s homemade ranchero sauce. Served w/ rice, beans & salad', price: '$11.99' },
+      { name: 'Steak Ranchero', description: "Ribeeye steak topped w/ Alondra's homemade ranchero sauce. Served w/ rice, beans & salad", price: '$11.99' },
       { name: 'Steak Charro', description: 'Ribeeye steak topped w/ sauteed onions & nopalitos. Served w/ rice, beans & salad', price: '$11.99' },
       { name: 'Pork Chops a la Mexicana', description: 'Topped w/ sauteed onions, tomato & jalapenos. Served w/ rice, beans & salad', price: '$11.75' },
-      { name: 'Pork Chop Ranchero', description: 'Topped w/ Alondra\'s homemade ranchero sauce. Served w/ rice, beans & salad', price: '$11.75' },
+      { name: 'Pork Chop Ranchero', description: "Topped w/ Alondra's homemade ranchero sauce. Served w/ rice, beans & salad", price: '$11.75' },
     ],
   },
   {
@@ -395,7 +395,7 @@ function Menu() {
             <div className="feature-card feature-card--lavender" style={{ textAlign: 'center' }}>
               <span style={{ fontSize: '1.5rem', display: 'block', marginBottom: 8 }}>&#127869;</span>
               <strong>Family Friendly</strong>
-              <p style={{ fontSize: '0.85rem', opacity: 0.85, marginTop: 4 }}>Kiddo\'s menu available</p>
+              <p style={{ fontSize: '0.85rem', opacity: 0.85, marginTop: 4 }}>Kiddo's menu available</p>
             </div>
           </div>
         </div>

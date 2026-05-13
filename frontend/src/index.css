@@ -1,4 +1,4 @@
-/* ============================================
+﻿/* ============================================
    Alondra's Mexican Restaurant - All Styles
    ============================================ */
 
@@ -209,12 +209,14 @@ ul, ol { list-style: none; }
 .menu-hero__search-input::placeholder { color: var(--muted-soft); }
 .menu-hero__search-clear { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; color: var(--muted-soft); padding: 4px 8px; border-radius: var(--rounded-sm); transition: color 0.2s ease; }
 .menu-hero__search-clear:hover { color: var(--brand-terracotta); }
-.menu-tabs-section { position: sticky; top: 60px; z-index: 100; background: var(--canvas); border-bottom: 1px solid var(--hairline); padding: 16px 0; }
-.menu-tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
-.menu-tabs::-webkit-scrollbar { display: none; }
+.menu-tabs-section { position: sticky; top: 60px; z-index: 100; background: var(--canvas); border-bottom: 1px solid var(--hairline); padding: 16px 0; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; }
+.menu-tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; scrollbar-color: var(--muted-soft) transparent; }
+.menu-tabs::-webkit-scrollbar { width: 4px; height: 4px; }
+.menu-tabs::-webkit-scrollbar-track { background: transparent; }
+.menu-tabs::-webkit-scrollbar-thumb { background: var(--muted-soft); border-radius: 4px; }
 .menu-tab {
   padding: 8px 20px; font-size: 0.9rem; font-weight: 500; color: var(--muted);
-  border-radius: var(--rounded-pill); white-space: nowrap; transition: all 0.2s ease; border: 1px solid transparent;
+  border-radius: var(--rounded-pill); white-space: nowrap; transition: all 0.2s ease; border: 1px solid transparent; flex-shrink: 0; min-width: max-content;
 }
 .menu-tab:hover { color: var(--brand-terracotta); background: rgba(200,90,23,0.05); }
 .menu-tab--active { color: var(--brand-terracotta); background: rgba(200,90,23,0.08); border-color: rgba(200,90,23,0.2); }
@@ -293,3 +295,7 @@ ul, ol { list-style: none; }
   .cta-band { padding: 64px 0; }
   .btn { padding: 12px 24px; font-size: 0.9rem; }
 }
+
+
+
+

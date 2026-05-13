@@ -1,4 +1,4 @@
-function About() {
+﻿function About() {
   return (
     <div style={{ paddingTop: 80 }}>
       {/* Hero */}
@@ -19,13 +19,13 @@ function About() {
             <div className="about-story__text">
               <h2 className="heading">Our Story</h2>
               <p className="about-story__paragraph">
-                Alondra\'s Mexican Restaurant was born from a family passion for authentic Mexican cuisine.\n                What started as a love for cooking traditional recipes has grown into a beloved community\n                gathering place where families come together over delicious food.
+                Alondra's Mexican Restaurant was born from a family passion for authentic Mexican cuisine. What started as a love for cooking traditional recipes has grown into a beloved community                gathering place where families come together over delicious food.
               </p>
               <p className="about-story__paragraph">
-                Every dish on our menu is prepared using time-honored recipes passed down through generations.\n                From our homemade chorizo to our signature salsa ranchera, we use only the freshest\n                ingredients and traditional techniques to bring you the true flavors of Mexico.
+                Every dish on our menu is prepared using time-honored recipes passed down through generations. From our homemade chorizo to our signature salsa ranchera, we use only the freshest ingredients and traditional techniques to bring you the true flavors of Mexico.
               </p>
               <p className="about-story__paragraph">
-                Our commitment to quality and hospitality means that every guest feels like family.\n                Whether you\'re joining us for a quick breakfast, a family lunch, or a casual dinner,\n                we\'re here to serve you with warmth and authentic Mexican cuisine.
+                Our commitment to quality and hospitality means that every guest feels like family. Whether you're joining us for a quick breakfast, a family lunch, or a casual dinner, we're here to serve you with warmth and authentic Mexican cuisine.
               </p>
             </div>
             <div className="about-story__image">
@@ -138,3 +138,4 @@ function About() {
 }
 
 export default About;
+

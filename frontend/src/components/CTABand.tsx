@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 
 function CTABand() {
   return (
@@ -9,7 +9,7 @@ function CTABand() {
           Ready to Experience Authentic Mexican Flavors?
         </h2>
         <p className="cta-band__subtitle">
-          Whether you\'re dining in or taking out, we\'ve got something special for everyone.
+          Whether you're dining in or taking out, we've got something special for everyone.
         </p>
         <div className="cta-band__actions">
           <Link to="/menu" className="btn btn--primary btn--lg">

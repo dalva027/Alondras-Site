@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="footer__grid">
           <div className="footer__brand">
-            <img src="/logo.png" alt="Alondra's" className="footer__logo" />
+            <img src="/logo.png" alt="Alondra's" className="footer__logo"  style={{ width: '75%', height: 'auto', }}/>
             <p className="footer__tagline">
               Authentic Mexican cuisine made with love and family recipes passed down through generations.
             </p>

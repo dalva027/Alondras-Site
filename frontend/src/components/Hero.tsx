@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -14,7 +14,7 @@ function Hero() {
           <span className="hero__title-accent">Alondra's</span>
         </h1>
         <p className="hero__subtitle">
-          Family recipes passed down through generations, served with love and the freshest ingredients.\n          Every dish tells a story of tradition and flavor.
+          Family recipes passed down through generations, served with love and the freshest ingredients. Every dish tells a story of tradition and flavor.
         </p>
         <div className="hero__actions">
           <Link to="/menu" className="btn btn--primary btn--lg">

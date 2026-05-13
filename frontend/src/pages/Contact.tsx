@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 
 function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
@@ -18,7 +18,7 @@ function Contact() {
           <span className="badge badge--terracotta">Get in Touch</span>
           <h1 className="display display--lg contact-hero__title">Contact Us</h1>
           <p className="contact-hero__subtitle">
-            We\'d love to hear from you! Visit us, call, or send a message.
+            We'd love to hear from you! Visit us, call, or send a message.
           </p>
         </div>
       </section>
@@ -68,14 +68,14 @@ function Contact() {
             <div className="text-center">
               <h2 className="heading" style={{ marginBottom: 8 }}>Send Us a Message</h2>
               <p className="subheading" style={{ marginBottom: 32 }}>
-                Have a question or want to make a reservation? We\'d love to hear from you.
+                Have a question or want to make a reservation? We'd love to hear from you.
               </p>
             </div>
 
             <div className="contact-form">
               {submitted && (
                 <div className="contact-form__success">
-                  <span>&#10004;</span> Message sent successfully! We\'ll get back to you soon.
+                  <span>&#10004;</span> Message sent successfully! We'll get back to you soon.
                 </div>
               )}
 
@@ -140,7 +140,7 @@ function Contact() {
       <section className="cta-band">
         <div className="cta-band__bg" />
         <div className="container cta-band__content">
-          <h2 className="cta-band__title">Can\'t Wait to See You!</h2>
+          <h2 className="cta-band__title">Can't Wait to See You!</h2>
           <p className="cta-band__subtitle">
             Come visit us and experience the warmth of authentic Mexican hospitality.
           </p>

@@ -1,4 +1,4 @@
-import Hero from '../components/Hero';
+﻿import Hero from '../components/Hero';
 import FeaturedDishes from '../components/FeaturedDishes';
 import DailySpecials from '../components/DailySpecials';
 import Testimonials from '../components/Testimonials';
