@@ -1,5 +1,6 @@
 ﻿import { Link } from 'react-router-dom';
 
+
 function Hero() {
   return (
     <section className="hero">
@@ -11,17 +12,17 @@ function Hero() {
         </span>
         <h1 className="display display--lg hero__title">
           Welcome to<br />
-          <span className="hero__title-accent">Alondra's</span>
+          <img src="/alond1.png" alt="Alondra's" className="hero__logo" />
         </h1>
         <p className="hero__subtitle">
           Family recipes passed down through generations, served with love and the freshest ingredients. Every dish tells a story of tradition and flavor.
         </p>
         <div className="hero__actions">
-          <Link to="/menu" className="btn btn--primary btn--lg">
+          <Link to="/menu" className="btn btn--primary btn--outline-hero btn--lg">
             <span>Explore Our Menu</span>
             <span>&rarr;</span>
           </Link>
-          <Link to="/contact" className="btn btn--outline btn--lg">
+          <Link to="/contact" className="btn btn--primary btn--outline-hero btn--lg">
             <span>Visit Us</span>
           </Link>
         </div>

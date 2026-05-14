@@ -44,8 +44,7 @@ function Footer() {
           <div className="footer__hours">
             <h4 className="footer__heading">Hours</h4>
             <ul>
-              <li><span className="footer__day">Mon - Fri</span><span className="footer__time">6:00 AM - 9:00 PM</span></li>
-              <li><span className="footer__day">Saturday</span><span className="footer__time">7:00 AM - 9:00 PM</span></li>
+              <li><span className="footer__day">Mon - Sat</span><span className="footer__time">6:00 AM - 3:00 PM</span></li>
               <li><span className="footer__day">Sunday</span><span className="footer__time">7:00 AM - 3:00 PM</span></li>
             </ul>
           </div>
@@ -55,11 +54,11 @@ function Footer() {
             <ul>
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.741 0 6 2.741 6 6c0 5.25 6 12 6 12s6-6.75 6-12c0-3.259-2.741-6-6-6zm0 10a4 4 0 110-8 4 4 0 010 8z"/></svg>
-                <span>123 Main Street, Your City, TX</span>
+                <span>579 FM 1346, La Vernia, TX 78121</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                <span>(555) 123-4567</span>
+                <span>(830) 779-1019</span>
               </li>
             </ul>
           </div>

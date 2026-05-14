@@ -49,7 +49,7 @@ function Navbar() {
             </li>
           ))}
           <li>
-            <Link to="/contact" className="btn btn--primary navbar__cta" onClick={() => setMobileOpen(false)}>
+            <Link to="/contact" className="btn btn--primary navbar__cta btn--outline-hero" onClick={() => setMobileOpen(false)}>
               Order Now
             </Link>
           </li>

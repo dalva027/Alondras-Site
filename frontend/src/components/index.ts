@@ -5,3 +5,4 @@ export { default as FeaturedDishes } from './FeaturedDishes';
 export { default as DailySpecials } from './DailySpecials';
 export { default as Testimonials } from './Testimonials';
 export { default as CTABand } from './CTABand';
+export { default as GoogleMaps } from './GoogleMaps';
